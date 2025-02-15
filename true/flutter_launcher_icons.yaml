@@ -1,0 +1,12 @@
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  adaptive_icon_background: "#000000"
+  ios: false
+  image_path: "assets/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  
+  # flutter pub run flutter_launcher_icons
+  # java -jar bundlesigner-0.1.13.jar genbin   --bundle build\app\outputs\bundle\release\app-release.aab --bin f:\  --v2-signing-enabled true --v3-signing-enabled false --ks C:\Users\ehsan\mohiti.jks -v          

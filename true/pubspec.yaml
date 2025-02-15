@@ -1,0 +1,70 @@
+name: truth_or_dare
+description: Truth or dare application.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.5+1
+
+environment:
+  sdk: ">=3.1.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  google_fonts: 6.1.0
+  shared_preferences: ^2.2.2
+  multiavatar: ^0.1.5
+  flutter_svg: ^2.0.10+1
+  tapsell_plus: ^2.2.7
+  internet_connection_checker: ^1.0.0+1
+  flutter_supabase_chat_core: ^1.0.0
+  supabase_flutter: ^2.6.0
+  flutter_chat_types: ^3.6.2
+  flutter_chat_ui: ^1.6.15
+  flutter_login: ^5.0.0
+  timeago: ^3.7.0
+  file_picker: ^8.1.2
+  image_picker: ^1.1.2
+  file_saver: ^0.2.14
+  open_filex: ^4.5.0
+  uuid: ^4.5.1
+  faker: ^2.2.0
+  flutter_screenutil: ^5.9.3
+  web_socket_channel: ^2.4.0
+  flutter_image_compress: ^2.4.0
+  cached_network_image: ^3.4.1
+  loading_animation_widget:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.5
+
+flutter_icons:
+  image_path: "assets/logo.png"
+  android: true
+  ios: true
+
+
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+#  flutter_lints: ^4.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/flat/
+    - lib/assets/
+    - assets/
+
+fonts:
+  - family: Lalezar
+    fonts:
+      - asset: assets/Lalezar-Regular.ttf
